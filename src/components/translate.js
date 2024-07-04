@@ -29,7 +29,7 @@ async function ProcessChatText(
   };
 
   // Check if the target language supports formality customization
-  if (formalitySupportedLanguages.includes(targetLanguage)) {
+  if (formalitySupportedLanguages.includes(targetLang)) {
     translateOptions.formality = formality;
   }
 
